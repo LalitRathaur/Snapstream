@@ -1,24 +1,30 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 📸 SnapStream
 
-## Getting Started
+SnapStream is a **media sharing web application** where users can upload images and videos, and view uploads from others in a centralized feed.  
+Built with **Next.js (React)**, **MongoDB**, and **ImageKit**, it provides a modern, fast, and scalable platform for sharing media.
 
-First, run the development server:
+---
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## ✨ Features
+- 📤 Upload images and videos  
+- 🌍 Public feed — everyone can see all uploads  
+- ⚡ Optimized media delivery with ImageKit CDN  
+- 🗂 MongoDB for storing media metadata  
+- 📱 Responsive UI with Next.js + React  
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+---
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 🛠 Tech Stack
+- **Frontend & Backend**: [Next.js](https://nextjs.org/) (React + API Routes)  
+- **Database**: [MongoDB](https://www.mongodb.com/)  
+- **Media Storage & Optimization**: [ImageKit.io](https://imagekit.io/)  
+- **Styling**: TailwindCSS  
+- **Deployment**: Vercel  
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+---
+
+## 📂 Project Structure
+
 
 ## Learn More
 
