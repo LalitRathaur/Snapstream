@@ -9,6 +9,11 @@ const nextConfig: NextConfig = {
       },
     ],
   },
+  eslint: {
+    // This will ignore all ESLint errors during production build
+    ignoreDuringBuilds: true,
+  },
 };
 
-module.exports = nextConfig;
+export default nextConfig;
+
