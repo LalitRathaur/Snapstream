@@ -15,7 +15,9 @@ export default function VideosPage() {
   // Fetch videos on mount (works for everyone)
   useEffect(() => {
     const fetchVideos = async () => {
-      const res = await fetch("/api/video");
+      const baseUrl = process.env.NEXT_PUBLIC_BASE_URL;
+      console.log(baseUrl)
+      const res = await fetch(`${baseUrl}/api/video`);
       const data = await res.json();
       setVideos(data);
     };
